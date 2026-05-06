@@ -106,7 +106,7 @@ if ready_to_process == True:
         bmi_category = "Severe obesity"
 
     # output report
-    print(f"Report for {name}\n"
+    print(f"Report for {name}:\n"
         f"{age} year old {sex}\n"
         f"Your BMI is {bmi:.2f}.\n"
         f"Your BMI cateogory is: {bmi_category}")
